@@ -1,10 +1,18 @@
 1.what is cloud computing ?
 ans:- the cloud computing is the most demanding service,specially data storage and maintaning the data center and
-server and computing power,storage,databaseand the cloud provider is aws
+server and computing power,storage,databaseand the cloud provider is aws .
 2.deployment model in cloud ?
-ans:-
-3.sevice modelin cloud ?
+ans:-Deployment models in the context of cloud computing refer to the specific arrangement and 
+configuration of cloud resources to deliver computing services. There are several deployment models, each with its own characteristics and use cases. 
+3.sevice model in cloud ? 
+ans:-The three main service models in cloud computing are Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS).
+  1.Infrastructure as a Service (IaaS):
+  Definition: IaaS provides virtualized computing resources over the internet. It includes virtual machines, storage, and networking. Users can rent these resources on a pay-as-you-go basis.
+  2.Platform as a Service (PaaS):
+  Definition: PaaS provides a platform that includes infrastructure, runtime, and development tools to allow developers to build, deploy, and scale applications without managing the underlying infrastructure.
+  3.Software as a Service (SaaS):
+  Definition: SaaS delivers software applications over the internet on a subscription basis. Users can access these applications through a web browser without needing to install or maintain the software locally.
 4.architechture of cloud computing ?
 5.aws golbal infratructure count ?
 6.why do we use region ?
-7.what is service  ? & what are resource ?
+7.what is service ?
