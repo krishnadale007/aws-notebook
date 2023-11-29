@@ -13,6 +13,16 @@ ans:-The three main service models in cloud computing are Infrastructure as a Se
   3.Software as a Service (SaaS):
   Definition: SaaS delivers software applications over the internet on a subscription basis. Users can access these applications through a web browser without needing to install or maintain the software locally.
 4.architechture of cloud computing ?
+ans:- 
 5.aws golbal infratructure count ?
+ans:- 1.AWS is a cloud computing platform which is globally available.
+      2.AWS is available in 32 regions, and 102 availability zones .
+      3.
 6.why do we use region ?
-7.what is service ?
+ans:- aws is physical infrastructure and logical networking. Users can choose a specific
+AWS region to deploy their resources and  some reasons AWS regions are important.
+7.what is service ? & what are resources ?
+ans:- These services can be include computing power, storage, databases, machine learning, networking, and more. 
+Cloud services are typically categorized into three main service 1.iaas 2.paas 3.saas0
+ans:-firstly cloud computing is indiviual compunents and that make up cloud infratructure and can be include  virtual machines, storage volumes, databases, network components, and other elements 
+aws is mutiple resource in EC2 instance (a virtual machine), an S3 bucket (for storage), or an RDS database instance.
