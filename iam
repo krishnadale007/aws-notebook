@@ -1,0 +1,9 @@
+How many resources do we have in IAM ?
+ans;-Users:- Individual users that interact with your AWS resources .
+Groups:- A collection of IAM users. Policies can be attached to groups, and users can be members of multiple groups and use aws resourse.
+Roles:- While policies cannot be directly given to any of the services accessible through the Amazon dashboard, IAM roles are similar to IAM users in that they
+may be assumed by anybody who requires them. By using roles,  .
+Policies:-  define permissions. They can be attached to users, groups, or roles use in aws resource.
+Access Keys and Certificates: Credentials used to access AWS programmatically aws resource.
+MFA (Multi-Factor Authentication) Devices:-  MFA to increase the security of your AWS environment.Signing in with MFA requires an authentication code
+from an MFA device ,mfa devices ex;-Google Authenticator,Microsoft Authenticator etc
