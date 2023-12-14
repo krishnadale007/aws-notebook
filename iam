@@ -1,5 +1,6 @@
 How many resources do we have in IAM ?
-ans;-Users:- Individual users that interact with your AWS resources .
+ans;-
+Users:- Individual users that interact with your AWS resources .
 Groups:- A collection of IAM users. Policies can be attached to groups, and users can be members of multiple groups and use aws resourse.
 Roles:- While policies cannot be directly given to any of the services accessible through the Amazon dashboard, IAM roles are similar to IAM users in that they
 may be assumed by anybody who requires them. By using roles,  .
@@ -7,3 +8,35 @@ Policies:-  define permissions. They can be attached to users, groups, or roles 
 Access Keys and Certificates: Credentials used to access AWS programmatically aws resource.
 MFA (Multi-Factor Authentication) Devices:-  MFA to increase the security of your AWS environment.Signing in with MFA requires an authentication code
 from an MFA device ,mfa devices ex;-Google Authenticator,Microsoft Authenticator etc
+Deployment model in IAM ?
+ans:-
+
+Identities in IAM ?
+ans;-
+An IAM identity represents a human user or programmatic workload, and can be authenticated and then authorized to perform actions in AWS
+What is an IAM User ?
+ans:-
+ IAM user is a resource in IAM that has associated credentials and permissions. An IAM user can represent a person or an application that uses its credentials and use
+aws services or resources
+What is the IAM Group ?
+ans;-
+the group is an identity that specifies a collection of IAM users and Groups make permissions easier to manage for large sets of users.
+What is the IAM Policy ?
+ans;-
+policies define permissions for an action regardless of the method that you use to perform the operation ex-aws cli ,s3,ec2 etc
+What is the IAM Role ?
+ans;-
+A role is a set of permissions that grant access to actions and resources in AWS. These permissions are attached to the role, not to an IAM User or a group.
+Where do we attach Identity Based Policy ?
+ans;-
+Identity-based policies are attached to an IAM user, group, or role. 
+Where do we attach Resource Based Policy ?
+ans;-
+ resource-based policies attach to Amazon S3 buckets, Amazon SQS queues, VPC endpoints, and AWS Key Management Service encryption keys.
+If one user has created it by default, which permission has been assigned to that user ?
+ans;-that user iam full access either administrator full access
+What is dominator policy ?
+ans;-
+What is ARN ? What are the fields in ARN ?
+ans;-1.Amazon Resource Names is uniquely identify AWS resources. We require an ARN when you need to specify a resource 
+     2.arn:partition:service:region:account-id:resource
