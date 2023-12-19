@@ -1,1 +1,58 @@
+Difference between Block storage & Object Storage ?
+**********************************************************************************************************************************************
+block storage
+**********************************************************************************************************************************************
+Block storage has a powerful performance with transactional data and database
+The higher the distance among application and storage, the greater the latency.
+Addressing needs limits scalability.
+Block storage will take any file apart into individual data blocks. It stores the blocks like data's separated pieces.
+-All data's pieces contain the distinct address. Hence it does not require being stored within any file structure.
+High Performance
+High speed, Low latency, Redundancy, etc.
+
+*********************************************************************************************************************************************
+object storage
+*********************************************************************************************************************************************
+Object storage performs great for high flow throughput and big content.
+Using Object storage, data can be saved within multiple regions.
+Object storage can scale boundlessly to petabytes.
+Object storage will take data's each piece and makes it as any object. Data will be stored in the isolated storehouses. It is bundled with related metadata and
+-a specific identifier.
+Distributed access and scalability
+Resource optimization, reduced cost, faster data improvement, infinite scalability, and data analytics.
+
+============================================================================================================================================
+Difference between static website & dynamic website ?
+============================================================================================================================================
+static website
+*********************************************************************************************************************************************
+In static web pages, Pages will remain same until someone changes it manually
+Static Web Pages are simple in terms of complexity.
+In static web pages, Information are change rarely.
+In static web pages, Information are change rarely.
+In Static Web Pages, database is not used.
+Static web pages are written in languages such as: HTML, JavaScript, CSS, etc.
+Static web pages does not contain any application program .
+---------------------------------------------------------------------------------------------------------------------------------------------
+dynamic website
+*********************************************************************************************************************************************
+In dynamic web pages, Content of pages are different for different visitors
+Dynamic web pages are complicated.
+In dynamic web page, Information are change frequently
+Dynamic web page takes more time for loading
+In dynamic web pages, database is used.
+Dynamic web pages are writhn in languages such as: CGI, AJAX, ASP, ASP.NET, etc.
+Dynamic web pages contains application program for different services.
+====================================.========================================================================================================
+What are the naming rules ?
+ans;-Bucket names must be between 3 (min) and 63 (max) characters long.
+Bucket names can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
+Bucket names must begin and end with a letter or number.
+Bucket names must not contain two adjacent periods.
+Bucket names must not be formatted as an IP address (for example, 192.168.5.4).
+Bucket names must not start with the prefix xn--.
+============================================================================================================================================
+What is the major resource of S3 Bucket ?
+ans;-resource of s3 bucket is create bucket,object storage,access control,versioning,lifecycle rule,replication rule,storage class,kms,
+static website hosting,sns,cloudtrail,transper accleration,etc
 
