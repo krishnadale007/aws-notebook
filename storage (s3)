@@ -55,4 +55,11 @@ Bucket names must not start with the prefix xn--.
 What is the major resource of S3 Bucket ?
 ans;-resource of s3 bucket is create bucket,object storage,access control,versioning,lifecycle rule,replication rule,storage class,kms,
 static website hosting,sns,cloudtrail,transper accleration,etc
-
+==========================================================================================================================================
+Why do we need to host static websites instead of dynamic websites ?
+ans;-
+==========================================================================================================================================
+What is versioning & Why do we need versioning ?
+ans;- S3 Versioning feature to preserve, retrieve, and restore every version of every object stored in your buckets.
+In software development, versioning allows development teams to keep track of changes they make to the project code. The changes may include new functions,
+features or bug fixes.
