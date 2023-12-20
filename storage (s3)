@@ -63,3 +63,39 @@ What is versioning & Why do we need versioning ?
 ans;- S3 Versioning feature to preserve, retrieve, and restore every version of every object stored in your buckets.
 In software development, versioning allows development teams to keep track of changes they make to the project code. The changes may include new functions,
 features or bug fixes.
+==========================================================================================================================================
+What are the objects and types of objects that we are uploading into the S3 Bucket ?
+ans:-s3 object uploading images, backups, data, movies,any other objects and types of objects file,logs,databases,Archives
+==========================================================================================================================================
+Why is MFA Delete important in S3 Bucket object level ?
+ans;-
+============================================================================================================================================
+What is S3 Multipart upload ?
+ans;-
+============================================================================================================================================
+What are the storage classes in Amazon S3 ?
+ans;-there are s3 storage classes-1. Standard 2.Intelligent-Tiering 3.Standard-IA (Infrequent Access) 4.One Zone-IA 5.Glacier 6.Glacier Deep Archive
+===========================================================================================================================================
+What is ACL ?
+ans:-acl stands for Access Control List. An Access Control List is a list of permissions associated with an object or
+a bucket that specifies which AWS accounts or groups are granted access and what actions are allowed or denied.
+==========================================================================================================================================
+Why do we need ACL ?
+ans;-Access Control Lists (ACLs) are essential for controlling and managing access to resources, such as buckets and objects, 
+in Amazon S3 and other cloud services
+==========================================================================================================================================
+What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+ans;-lifecycle policy storage cost optimization ,lifecycle rule is s3 object automatically class change in our set opration
+==========================================================================================================================================
+How can we make our bucket public ?
+ans:-firstly s3 open go to bucket and open then permission go on bucket policy is public
+=========================================================================================================================================
+Aws pricing factor of the S3 Service.
+ans;-aws pricing factor is estimate the cost of using the s3  service.
+=========================================================================================================================================
+How can we make our object public ?
+ans;-yes., i can change my s3 bucket ojject is bublic --step= open the bucket and select the object and go to the action then make acl object public
+=====================================================================================================================================
+
+
+
