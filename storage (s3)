@@ -96,6 +96,9 @@ ans;-aws pricing factor is estimate the cost of using the s3  service.
 How can we make our object public ?
 ans;-yes., i can change my s3 bucket ojject is bublic --step= open the bucket and select the object and go to the action then make acl object public
 =====================================================================================================================================
+How can we configure the static website logs in s3 ?
+ans;-
+=======================================================================================================================================
 
 
 
