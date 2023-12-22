@@ -99,6 +99,13 @@ ans;-yes., i can change my s3 bucket ojject is bublic --step= open the bucket an
 How can we configure the static website logs in s3 ?
 ans;-
 =======================================================================================================================================
-
-
-
+what is cors ?
+ans;-CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented by web browsers that controls how web pages in
+one domain can request and interact with resources hosted on another domain.
+========================================================================================================================================================
+What is S3 Inventory ?
+ans;-
+Amazon S3 Inventory is a feature provided by Amazon Simple Storage Service (S3), which is a scalable and secure object storage 
+service offered by Amazon Web Services (AWS). S3 Inventory enables you to generate reports about your S3 objects and their metadata on
+a regular basis. These reports can provide valuable insights into your object storage, helping you with tasks such as compliance, auditing, and data lifecycle management.
+========================================================================================================================================
