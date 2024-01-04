@@ -1,1 +1,72 @@
-
+what is ec2 ?
+ans;-
+EC2 stands for Elastic Compute Cloud. EC2 is an on-demand computing service on the AWS cloud platform. 
+Under computing, it includes all the services a computing device can offer to you along with the flexibility
+of a virtual environment. It also allows the user to configure their instances as per their requirements i.e.
+allocate the RAM, ROM, and storage according to the need of the current task. Even the user can dismantle 
+the virtual device once its task is completed and it is no more required. For providing, all these
+scalable resources AWS charges some bill amount at the end of every month, the bill amount is entirely dependent on your usage.
+EC2 allows you to rent virtual computers. The provision of servers on AWS Cloud is one of the easiest ways in EC2. 
+EC2 has resizable capacity. EC2 offers security, reliability, high performance, and cost-effective infrastructure so as to meet the demanding business needs.
+=================================================================================================================================================
+Why do we need EC2 service in cloud computing ?
+ans;-
+Amazon Elastic Compute Cloud (Amazon EC2) provides on-demand, scalable computing capacity in the Amazon Web Services (AWS) Cloud.
+Using Amazon EC2 reduces hardware costs so you can develop and deploy applications faster.
+============================================================================================================================================
+Features of Amazon EC2 ?
+ans;-
+Amazon EC2 provides the broadest and deepest instance choice to match your workload’s needs. General purpose, compute optimized, 
+memory optimized, storage optimized, and accelerated computing instance types are available that provide the optimal compute, memory,
+storage, and networking balance for your workloads. Processors from Intel, AMD, NVIDIA and AWS power these instance types and provide
+additional performance and cost optimizations. Local storage and enhanced networking options available with instance types further help
+optimize performance for workloads that are disk or network I/O bound. Many instance types also offer bare metal instances that
+provide your applications with direct access to the processor and memory of the underlying server for running in non-virtualized 
+environments or for applications where you want to use your own hypervisor. To find the right instance for your workload, 
+visit the EC2 instance types page. You can also use the AWS Compute Optimizer to get recommendations on optimal AWS Compute resources 
+for your workloads to reduce costs and improve performance.
+====================================================================================================================================
+What is Hypervisor ? and its types ?
+ans;-
+Hyper visor is a firmware or low level program that acts as a virtual machine manager. A system on which hypervisor
+is running one or more virtual machines is known as host machine. Each virtual machine is called guest machine. One can classify
+hypervisor into two categories :
+1. Type 1 / native / Bare-Metal
+2.Type 2 / Hosted
+======================================================================================================================================
+Where we use hypervisor ?
+ans;-
+A hypervisor is a software that you can use to run multiple virtual machines on a single physical machine. Every virtual machine
+has its own operating system and applications. The hypervisor allocates the underlying physical computing resources such as 
+CPU and memory to individual virtual machinesas required.
+=========================================================================================================================================
+Steps to create an EC2 instance.
+ans;= following steps
+Sign in to the AWS Management Console
+Choose a name for your instance
+Choose an Amazon Machine Image (AMI)
+Choose an Instance Type
+Create a key pair
+Configure Security Group
+Add Storage
+Review and Launch
+======================================================================================================================================
+EC2 Instance state ?
+ans;= 1> 2/2 =helthey   2> 1/2 =software error    3> 0/1=hardware error 
+=====================================================================================================================================
+How many types of EC2 Instance-State codes ?
+ans;-
+0: pending
+16: running
+32: shutting-down
+48: terminated
+64: stopping
+80: stopped
+===============================================================================================================================
+What is the meaning of server hibernating mode ?
+ans;=
+In computing, hibernation is a power-saving mode that saves the current state of a computer's system to the hard drive before
+shutting down. It's also known as "suspend to disk" or "Safe Sleep" on Macintosh computers. 
+Both shut down and hibernated systems may consume standby power unless they are unplugged. Hibernation is a means of avoiding
+the burden of saving unsaved data before shutting down and restoring all running programs and re-opening documents and browser tabs.
+====================================================================================================
