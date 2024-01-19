@@ -1,1 +1,9 @@
-
+What is a cloud trail ?
+ans;-Cloudwatch is a monitoring tool that you can use to monitor your various AWS resources.
+Like health check, network, Application, etc.
+===============================================================================================================================
+Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts ?
+ans;-
+================================================================================================================================
+Explain how we can create a trail in aws cloud trail ?
+ans;-
