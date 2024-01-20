@@ -1,1 +1,10 @@
-
+What is SNS ?
+Ans;-SNS stands for Simple Notification Service. SNS is a web service that makes it easy to
+notifications from the cloud. You can set up SNS to receive email notification or message notification.
+====================================================================================================================================
+Why do we use SNS ?
+ans;-NS is typically used for applications that need realtime notifications,
+===================================================================================================================================
+What are the different delivery formats and transports in AWS SNS ?
+ans;- delivery format is= HTTP, HTTPS, Email-JSON and SQS 
+===================================================================================================================================
