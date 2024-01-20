@@ -1,1 +1,19 @@
-
+AWS Amazon EC2 Instance types ?
+ans;-General Purpose Instances,Compute Optimized Instances ,Memory-Optimized Instances,Storage Optimized Instances,Accelerated Computing Instances.
+==================================================================================================================================
+How many types of status checks happen in aws ?
+ans;-Amazon EC2, there are two types of status checks, commonly known as "instance status checks" and "system status checks.
+" These checks help ensure the health and proper functioning of your EC2 instances and the underlying infrastructure.
+====================================================================================================================================
+When we see the global view option in ec2 service ?
+ans;-
+===============================================================================================================================
+When we logged into the cloud account by default why do we always jump into the north virginia region, why it’s most popular ?
+ans;-
+=============================================================================================================================
+ans;- aws  there might be changes or updates to cloud services, so it's always a good idea to check the current information. However,
+as of that time, the U.S. East (North Virginia) region of Amazon Web Services (AWS) was one of the most popular and heavily used regions
+================================================================================================================================
+What are EBS Volumes and its types ?
+ans;-General Purpose SSD,Provisioned IOPS SSD,Throughput Optimized HDD ,Cold HDD ,Magnetic (standard
+====================================================================================================================================
