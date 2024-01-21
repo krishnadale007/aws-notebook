@@ -42,4 +42,4 @@ ans;-It can back up the data on the EBS Volume. Snapshots are incremental backup
 copies of volumes.
 =======================================================================================================================================
 What is the lifecycle manager in snapshot ?
-ans;-
+ans;-Lifecycle Manager provides a simple and automated way for you to manage your EBS snapshot backups
