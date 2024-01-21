@@ -91,4 +91,17 @@ ans;-
 ========================================================================================================================
 What is the group of LB ?
 ans;-
+=======================================================================================================================================
+Difference between Web server & Application server ?
+ans;- web server
+1.In web server,HTML and HTTP protocols are used.
+2.Web server encompasses web container only.
+3.Web server is useful or fitted for static content.	
+4.Web Server examples are Apache HTTP Server , Nginx.
+--appliction server----------------------------------------------------------------------------------------------------------------
+1.While in this, GUI as well as HTTP and RPC/RMI protocols are used.
+2.While application server encompasses Web container as well as EJB container.
+3.Whereas application server is fitted for dynamic content.
+4.Application Servers example are JBoss , Glassfish.
+=================================================================================================================================
 
