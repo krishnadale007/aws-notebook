@@ -43,3 +43,37 @@ copies of volumes.
 =======================================================================================================================================
 What is the lifecycle manager in snapshot ?
 ans;-Lifecycle Manager provides a simple and automated way for you to manage your EBS snapshot backups
+==================================================================================================================================
+How does the Amazon lifecycle manager work ?
+ans;-
+=================================================================================================================================
+Difference between Security Group & NACL ?
+ans security group
+1. It supports only allow rules, and by default, all the rules are denied. You cannot deny the rule for establishing a connection.
+2.It is associated with an EC2 instance.
+3.It is the first layer of defense.
+-nacl----------------------------------------------
+1.It supports both allow and deny rules, and by default, all the rules are denied. You need to add the rule which you can either allow or deny it.
+2.It is associated with a subnet.
+3.It is the second layer of defense.
+=========================================================================================================================================
+How many IP Addresses can we attach to the instances ?
+ans;- Amazon Web Services (AWS), a Virtual Private Cloud (VPC) can have a maximum of 5 IP addresses per Elastic Network Interface (ENI) 
+and a maximum of 8,000 IP addresses per VPC. This means that a VPC can have a maximum of 8,000 public IP addresses, if you are using
+the IPv4 addressing protocol.
+====================================================================================================================================
+How many types of volume states do we have ?
+ans;- creating ,avilable ,in use,deleting,deleted,error
+===============================================================================================================================
+What is a key pair, and its types ?
+Ans:Key-pairs are secure login information for your instances/virtual machines. To connect to the
+instances we use key-pairs that contain a public-key and private-key.
+=================================================================================================================================
+What is load balancer and its types ?
+ans;-A load balancer is a device or service that distributes incoming network traffic across multiple servers or resources t
+o ensure that no single server becomes overwhelmed with too much traffic. Load balancing is commonly used to enhance the availability,
+reliability, and scalability of applications or websites by evenly distributing the incoming requests.
+types of loadblancer;-1.Application Load Balancer 2.Network Load Balancer 3.Classic Load Balancer 
+==============================================================================================================================
+
+
