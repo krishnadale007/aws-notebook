@@ -75,5 +75,20 @@ o ensure that no single server becomes overwhelmed with too much traffic. Load b
 reliability, and scalability of applications or websites by evenly distributing the incoming requests.
 types of loadblancer;-1.Application Load Balancer 2.Network Load Balancer 3.Classic Load Balancer 
 ==============================================================================================================================
-
+Features of Load Balancers ?
+ans;-
+=============================================================================================================================
+What is ASG ? & Its types ?
+ans;-Auto scaling allows you to automatically scale-up and scale-down the number of instances
+depending on the CPU utilization or memory utilization.
+types of auto scalling;-1. horizontal scaling 2.vertical scaling
+==========================================================================================================================
+What is a Health Check ?
+ans;-
+=====================================================================================================================
+What is the threshold ?
+ans;-
+========================================================================================================================
+What is the group of LB ?
+ans;-
 
