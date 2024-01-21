@@ -17,3 +17,29 @@ as of that time, the U.S. East (North Virginia) region of Amazon Web Services (A
 What are EBS Volumes and its types ?
 ans;-General Purpose SSD,Provisioned IOPS SSD,Throughput Optimized HDD ,Cold HDD ,Magnetic (standard
 ====================================================================================================================================
+Purpose of Using EBS volumes ?
+ans;- 1.Data backup and disaster recovery: Customers can use EBS snapshots to capture production data for testing and other purposes
+      2.Primary storage: For data that needs frequent updates, such as system drives and database applications
+===================================================================================================================================
+How many types of purchasing options do we have in aws ec2 ?
+ans;-On-Demand Instances ,Reserved Instances ,Savings Plans ,Spot Instances ,Dedicated Hosts ,Dedicated Instances,Capacity Reservations
+==================================================================================================================================
+Difference between AWS AMI Image & AWS Template ?
+ans;-
+================================================================================================================================
+What is NIC & it’s types ?
+ans;- nic is a hardware component without which a computer cannot be connected over a network. It is a circuit board installed in 
+a computer that provides a dedicated network connection to the computer. It is also called network interface controller
+types of nic ;-Internal Network Cards,External Network Cards
+================================================================================================================================
+What is elastic IP ? & WHY were we used ?
+ans;-a static IPv4 address that's designed for dynamic cloud computing. It's a static public address associated with your AWS account. 
+     These are ipv4 address which are used to connect the instance from internet, they are chargedif the instances are not attached to it
+=========================================================================================================================================
+What is the snapshot of why we use it ?
+ans;-It can back up the data on the EBS Volume. Snapshots are incremental backups.
+• If this is your first snapshot it may take some time to create. Snapshots are point in time
+copies of volumes.
+=======================================================================================================================================
+What is the lifecycle manager in snapshot ?
+ans;-
