@@ -1,1 +1,52 @@
+What is VPC ?
+ans;-VPC stands for Virtual Private Cloud, and it is a fundamental component of Amazon Web Services (AWS). A VPC allows you to create
+a logically isolated section of the AWS Cloud where you can launch and run resources in a virtual network that you define. It provides 
+a way to customize your network configuration, such as IP address ranges, subnets, route tables, and network gateways.
+=====================================================================================================================================
+What are the Subnets when working with VPC ?
+ans;-Each VPC network consists of one or more IP address ranges called subnets. Subnets are regional resources, and have IP address
+ranges associated 
+===================================================================================================================================
+What is NAT Device ?
+ans NAT  device is a networking device that performs Network Address Translation. NAT is a technique used to modify network address information
+in packet headers while in transit, typically in routers or firewalls. The primary purpose of a NAT device is to allow multiple devices within
+a private network to share a single public IP address for connecting to the internet.
+========================================================================================================================================
+What is the difference between stateful & stateless filtering ?
+ans;-
+1.Filtering decision Based on information in packet headers
+2.Memory and CPU intensive low
+3.stateful security is low
+4.performanace is fast 
+---stateless filtering-------------------------------------------------------------------------------------------------------------------
+1.Filtering decision Based on flows
+2.Memory and CPU intensive high
+3.stateful security is high
+4.performanace is low
+=======================================================================================================================================
+What are the advantages of using default VPC ?
+ans;-
+1.Internet access
+A default VPC includes internet access by default, along with an internet gateway and public subnets with corresponding route tables.
+This is not available by default in non-default VPCs.
+2.IPv4 CIDR block
+All default VPCs are associated with an IPv4 CIDR block with a 172.31.0.0/16 address range. This gives you 65,536 possible IP addresses, 
+minus some AWS reserved addresses.
+3.Public IPv4 addresses
+In a default VPC, servers within the public subnet are assigned a public IP address. This allows servers to reach the outside internet,
+and the outside internet to reach the servers
+=================================================================================================================================
+What is the internet gateway in VPC ?
+ans;- internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and 
+the internet
+===================================================================================================================================
+What is Network ACL in VPC ?
+ans;-A network access control list (ACL) allows or denies specific inbound or outbound traffic at the subnet level.
+=======================================================================================================================================
+What is the Security Group in VPC ?
+ans;-a Security Group is a virtual firewall that controls inbound and outbound traffic for instances (virtual machines) within a VPC. 
+Security Groups act as a fundamental component of the network security model in AWS, allowing you to define rules that determine
+what kind of traffic is allowed or denied to and from instances.
+=================================================================================================================================
+
 
