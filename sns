@@ -8,3 +8,11 @@ ans;-NS is typically used for applications that need realtime notifications,
 What are the different delivery formats and transports in AWS SNS ?
 ans;- delivery format is= HTTP, HTTPS, Email-JSON and SQS 
 ===================================================================================================================================
+Difference between Amazon SNS & Amazon SQS.
+ans;- sns
+1.sns is simple notification service
+2.sns user for notification to performance to that service
+3.sns is use in service is s3,autocaling,cloudtrail etc
+4.sns is endpoint is- mobile sms ,email,lamda,http etc
+sqs---------------------------------------------------------------------------------------
+1.
