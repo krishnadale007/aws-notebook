@@ -87,4 +87,24 @@ ans;-What is the concept of bastion host?
 What is a Bastion Host?
 A bastion host is a server used to manage access to an internal or private network from an external network - sometimes called bastin host
 ===================================================================================================================================
+When do we need to create a new customised VPC ?
+ans;-when there is a requirement to create your own network for your own purpose or your company
+================================================================================================================================
+When do we need to create a new customised VPC ?
+ans;-when there is a requirement to create your own network for your own purpose or your company
+===============================================================================================================================
+What is Peering ? Why do we need to peer at two VPC’s ?
+ans;- 1> VPC peering is a networking connection that allows traffic to be routed between two VPCs using private IP addresses
+      2>
+===============================================================================================================================
+What is VPN, Where do we use VPN Tunnel ?
+ans;-1> VPN or Virtual Private Network creates a private network connection between devices through the internet. VPNs are used to safely and 
+anonymously transmit data over public networks. They work by masking user IP addresses and encrypting data so it's unreadable by
+anyone not authorized to receive it.
+2>A VPN tunnel is a secure, encrypted connection between a user's device and the internet through a virtual private network. 
+The VPN tunnel encrypts the user's internet traffic and routes it to a remote VPN server. From there, the data is decrypted and
+delivered to its intended destination
+======================================================================================================================================
+
+
 
