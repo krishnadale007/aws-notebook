@@ -48,5 +48,17 @@ ans;-a Security Group is a virtual firewall that controls inbound and outbound t
 Security Groups act as a fundamental component of the network security model in AWS, allowing you to define rules that determine
 what kind of traffic is allowed or denied to and from instances.
 =================================================================================================================================
-
+What 1>.is an Elastic IP Address in VPC, and why do we need to use, realtime example ?
+ans;-VPC is a static IPv4 address designed for dynamic cloud computing. It is associated with your AWS account, allowing you to allocate
+it to instances within a VPC. Elastic IP addresses are particularly useful when you need a consistent public IP address for your
+instance
+2>.elastic ip uses- 1.Static IP Address 2.Avoiding IP Address Changes 3.Disaster Recovery and Redundancy 4.Portability and Reusability
+3>. realtime elastic ip example in ;- web server running on an EC2 instance in your VPC, and you want to host a website with a consistent public IP address
+=======================================================================================================================================
+Can we attach one Production Elastic IP to the new Prod server ?
+ans;-
+=========================================================================================================================================
+How does ELB Affect a VPC ?
+ans;-
+=============================================================================================================================
 
