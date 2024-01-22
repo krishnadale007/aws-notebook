@@ -16,3 +16,15 @@ ans;- sns
 4.sns is endpoint is- mobile sms ,email,lamda,http etc
 sqs---------------------------------------------------------------------------------------
 1.
+=======================================================================================================================================
+What are the different delivery formats and transports in AWS SNS ?
+ans;-  sns for deliveries formats HTTP, HTTPS, Email-JSON and SQS and transportesis
+=====================================================================================================================================
+On which services are configured with the AWS SNS ?
+ans;-
+=====================================================================================================================================
+What is the difference between SNS FIFO & Standard while creating the SNS topic.
+ans;-
+====================================================================================================================================
+What is 10DLC in AWS ?
+ans;-
