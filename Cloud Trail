@@ -6,7 +6,8 @@ Why do we use trails, what is the exact purpose of enabling the trail in cloud p
 ans;-
 ================================================================================================================================
 Explain how we can create a trail in aws cloud trail ?
-ans;-
+ans;- open a cloudtrail service and create trail-->trail name-->storage location-->next-->Choose log events--all-->API activity-->all-->next
+review and create.
 =================================================================================================================================
 How can we enable logging for S3 bucket using cloud trails ?
 ans;-
