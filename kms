@@ -104,4 +104,48 @@ ans;- web server
 3.Whereas application server is fitted for dynamic content.
 4.Application Servers example are JBoss , Glassfish.
 =================================================================================================================================
+What is the target group ?
+ans;- target group is a component of the Elastic Load Balancing (ELB) service. ELB distributes incoming application traffi
+c across multiple targets, such as Amazon EC2 instances, in multiple Availability Zones.
+===================================================================================================================================
+What is the desired capacity in ASG ?
+ans;-the asg is minimum desired capacity is 1 and maximumis is required .
+=================================================================================================================================
+How many types of the Scaling option ?
+ans;- there are scaling option 1.Dynamic Scaling 2.Scheduled Scaling 3.Manual Scaling
+===================================================================================================================================
+Scaling plans ?
+ans;-1.Target Tracking Scaling 2.Step Scaling
+===================================================================================================================================
+Types Auto scaling
+ans;-1.Amazon EC2 Auto Scaling 2.Dynamic Scaling 3.Scheduled Scaling 4.Predictive Scaling
+===================================================================================================================================
+Difference between vertical scaling and horizontal scaling ?
+ans;-vertical scaling
+1.
+==================================================================================================================================
+Difference between AMI & Snapshot ?
+ans;- ami
+1.ami  is a pre-configured virtual machine image, which includes an operating system, application server, and applications. 
+It serves as the template for creating instances (virtual servers) in Amazon EC2 
+2.You can create custom AMIs based on your EC2 instances, share them with other AWS accounts, and use them to launch new instances with the same configuration.
+3.ami use backup
+--snapshot----------------------------------------------------------------------------------------------------------------------
+1.Snapshot is a point-in-time copy of an Amazon EBS volume. EBS provides block-level storage volumes 
+2.snapshot is backup for volume use
+3.migrate data between regions, and restore volumes to a previous state. 
+=========================================================================================================================
+What is difference between EBS/EFS/S3
+ans;-
+1>.ebs
+1.It is used to provide the block-level storage volumes for the use of EC2 instances.	
+2.It is mainly used for data that should be quickly accessible and requires long term durability.	
+2>.efs----------------------------------------------------------------------
+1.It is simple to use.
+2.It is used in modernize application development
+3.Industries use this for enhancing content management systems
+---------------------------------------------------------------------------
+3.s3
+1.s3 is a store service
+2.
 
