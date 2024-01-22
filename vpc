@@ -61,4 +61,30 @@ ans;-
 How does ELB Affect a VPC ?
 ans;-
 =============================================================================================================================
+What are the limitations of VPC’s, Gateway and subnets ?
+ans;-limitations of VPC
+The default limit for VPCs per region is 5.
+The limit is made up of primary CIDR block plus 4 secondary CIDR blocks.
+VPC endpoints and services must be in the same region.
+VPC endpoints only support IPv4 traffic.
+Endpoints can't be transferred from one VPC or service to another.
+--gateway------------------------------------------------------------------------------------------------------------------------
+The major disadvantage of using a gateway is its implementation cost.
+The default gateway IP address doesn't change when the network topology changes.
+--Subnets--------------------------------------------------------------------------------------------------------------------------
+As the number of sub-networks increases, the complexity of the network also increases.
+This makes maintaining and troubleshooting the errors in the network more difficult. 
+===================================================================================================================================
+What is a Public IP Address and why do we use it ?
+ans;- 1>A public IP address is a unique numerical label assigned to devices connected to a computer network that uses the Internet
+Protocol for communication. This address is globally unique and is routable over the internet.
+2>Require remote access to their networks
+Need to host websites or online services
+Want to take advantage of cloud computing 
+================================================================================================================================
+Explain Bastion Host Concept ?
+ans;-What is the concept of bastion host?
+What is a Bastion Host?
+A bastion host is a server used to manage access to an internal or private network from an external network - sometimes called bastin host
+===================================================================================================================================
 
