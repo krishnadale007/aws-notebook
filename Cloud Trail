@@ -12,4 +12,23 @@ review and create.
 How can we enable logging for S3 bucket using cloud trails ?
 ans;-
 =================================================================================================================================
+How do you get the list of all created trailers in your production account ?
+ans;-
+=================================================================================================================================
+Can we create a trail for a multi region, if yes then how can we configure it ?
+ans;-
+=================================================================================================================================
+How can we disable the logging for certain events, services in cloud trail, If yes so explain how ?
+ans;-
+=================================================================================================================================
+Real time use case of cloud trail ?
+ans;-
+=================================================================================================================================
+What is cloud trail event history ?
+ans;-
+================================================================================================================================
+What is log file integrity validation in cloud trail ?
+ans;-CloudTrail log file integrity validation is a feature that allows users to determine if a CloudTrail log file has been modified,
+deleted, or remained unchanged since it was delivered to the specified Amazon S3 bucket.
+
 
