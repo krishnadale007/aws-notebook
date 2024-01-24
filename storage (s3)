@@ -109,3 +109,38 @@ Amazon S3 Inventory is a feature provided by Amazon Simple Storage Service (S3),
 service offered by Amazon Web Services (AWS). S3 Inventory enables you to generate reports about your S3 objects and their metadata on
 a regular basis. These reports can provide valuable insights into your object storage, helping you with tasks such as compliance, auditing, and data lifecycle management.
 ========================================================================================================================================
+Why do we need ACL ?
+ans;- access control list is using spacial permission {read ,write ,exicute} 
+======================================================================================================================================
+What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+ans;
+
+
+2>Assume a lot of data is updated in an S3 bucket regularly, and if all the data is maintained by standard storage it will cost you
+more(even if previous data is of no use after some time). So, to avoid extra expenses and to maintain data as per requirement only 
+life cycle management is needed. 
+====================================================================================================================================
+How can we make our bucket public ?
+ans;- a bucket object is using publically and access for data .
+==================================================================================================================================
+How can we give public access to our bucket ?
+ans;-s3 service open and go to permission and block public access edit and save change
+==================================================================================================================================
+Aws pricing factor of the S3 Service.
+ans;-
+=================================================================================================================================
+How can we make our object public ?
+ans;- because publically access for s3 object data
+=================================================================================================================================
+How can we configure the static website logs in s3 ?
+ans;-
+================================================================================================================================
+What does it mean by Requester pays ?
+ans;-Requester Pays, the person or entity making requests to the bucket is responsible for the associated costs.
+===================================================================================================================================
+What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+ans;-1>Transfer Acceleration." Amazon S3 Transfer Acceleration is a feature provided by Amazon Simple Storage Service (Amazon S3) that
+allows for faster uploading and downloading of objects to and from an S3 bucket. The accelerated transfers are achieved by using
+Amazon CloudFront's globally distributed edge locations to route the data, optimizing the delivery path.
+2>transfer accleration is use for uploading and downloading data spped of transfer and improve performance
+=============================================================================================================================
