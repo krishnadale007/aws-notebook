@@ -57,7 +57,9 @@ ans;-resource of s3 bucket is create bucket,object storage,access control,versio
 static website hosting,sns,cloudtrail,transper accleration,etc
 ==========================================================================================================================================
 Why do we need to host static websites instead of dynamic websites ?
-ans;-
+ans;-Static websites typically have lower hosting costs as they don't require server-side processing.
+Static websites are simpler to set up and maintain.
+They load faster because there's no server-side processing, making them more responsive to user requests.
 ==========================================================================================================================================
 What is versioning & Why do we need versioning ?
 ans;- S3 Versioning feature to preserve, retrieve, and restore every version of every object stored in your buckets.
@@ -68,10 +70,17 @@ What are the objects and types of objects that we are uploading into the S3 Buck
 ans:-s3 object uploading images, backups, data, movies,any other objects and types of objects file,logs,databases,Archives
 ==========================================================================================================================================
 Why is MFA Delete important in S3 Bucket object level ?
-ans;-
+ans;-This adds an extra layer of protection to prevent accidental or unauthorized deletions. To block accidental or malicious deletion.
+Prevents Accidental Deletions.
+Enhances Security.
+Secures Critical Data.
+Prevents Malicious Actions.
 ============================================================================================================================================
 What is S3 Multipart upload ?
-ans;-
+ans;-Simple Storage Service (S3) that allows you to upload large objects in parts.
+Instead of uploading the entire object in a single request, you can break it into smaller parts and upload them concurrently. 
+This method is particularly useful for large files, as it provides benefits such as improved performance, fault tolerance, and the ability to resume uploads.
+
 ============================================================================================================================================
 What are the storage classes in Amazon S3 ?
 ans;-there are s3 storage classes-1. Standard 2.Intelligent-Tiering 3.Standard-IA (Infrequent Access) 4.One Zone-IA 5.Glacier 6.Glacier Deep Archive
@@ -97,7 +106,7 @@ How can we make our object public ?
 ans;-yes., i can change my s3 bucket ojject is bublic --step= open the bucket and select the object and go to the action then make acl object public
 =====================================================================================================================================
 How can we configure the static website logs in s3 ?
-ans;-
+ans;- s3-->Permissions-->Edit Bucket Policy-->Block all public access-->uncheck-->Save Changes
 =======================================================================================================================================
 what is cors ?
 ans;-CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented by web browsers that controls how web pages in
@@ -127,7 +136,14 @@ How can we give public access to our bucket ?
 ans;-s3 service open and go to permission and block public access edit and save change
 ==================================================================================================================================
 Aws pricing factor of the S3 Service.
-ans;-
+ans;-Storage Class
+Storage Amount GB orTB
+Requests
+Data Transfer
+Transfer Acceleration
+Data Retrieval 
+Cross-Region Replication
+Data Transfer Acceleration
 =================================================================================================================================
 How can we make our object public ?
 ans;- because publically access for s3 object data
