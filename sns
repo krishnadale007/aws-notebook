@@ -3,7 +3,7 @@ Ans;-SNS stands for Simple Notification Service. SNS is a web service that makes
 notifications from the cloud. You can set up SNS to receive email notification or message notification.
 ====================================================================================================================================
 Why do we use SNS ?
-ans;-NS is typically used for applications that need realtime notifications,
+ans;-sNS is typically used for applications that need realtime notifications,
 ===================================================================================================================================
 What are the different delivery formats and transports in AWS SNS ?
 ans;- delivery format is= HTTP, HTTPS, Email-JSON and SQS 
@@ -21,10 +21,17 @@ What are the different delivery formats and transports in AWS SNS ?
 ans;-  sns for deliveries formats HTTP, HTTPS, Email-JSON and SQS and transportesis
 =====================================================================================================================================
 On which services are configured with the AWS SNS ?
-ans;-
+ans;-Amazon SQS (Simple Queue Service)
+AWS Lambda
+Amazon EC2 (Elastic Compute Cloud)
+Amazon S3 (Simple Storage Service)
+Amazon CloudWatch
 =====================================================================================================================================
 What is the difference between SNS FIFO & Standard while creating the SNS topic.
 ans;-
 ====================================================================================================================================
 What is 10DLC in AWS ?
-ans;-
+ans;-Stands for 10-Digit Long Code
+It is related to SMS (Short Message Service) messaging. Specifically, it is a type of long code that is used for sending Application-to-Person (A2P) messages.
+
+
