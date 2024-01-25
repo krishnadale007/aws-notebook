@@ -181,13 +181,17 @@ What is difference between EBS/EFS/S3
 ans;-
 1>.ebs
 1.It is used to provide the block-level storage volumes for the use of EC2 instances.	
-2.It is mainly used for data that should be quickly accessible and requires long term durability.	
-2>.efs----------------------------------------------------------------------
+2.It is mainly used for data that should be quickly accessible and requires long term durability.
+3.Pay for provisioned capacity based on chosen volume type (gp2, io1, st1, sc1
+4.Block storage, suitable for operating systems and applications.	.
+2>.efs---------------------------------------------------------------------------------------------------------------
 1.It is simple to use.
 2.It is used in modernize application development
 3.Industries use this for enhancing content management systems
----------------------------------------------------------------------------
-3.s3
+3.Pay for the storage capacity used
+4.File storage, suitable for shared access by multiple instances
+3>.s3 ---------------------------------------------------------------------------------------------------------------
 1.s3 is a store service
-2.
-
+2.Object storage with different storage classes, including Standard, Intelligent-Tiering, Glacier, etc.
+3.Pay for the storage used, data transfer, and requests made, with various storage classes offering different pricing.
+4.Object storage, suitable for static content, backups, data archiving, and scalable storage.
