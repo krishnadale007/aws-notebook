@@ -115,7 +115,11 @@ instance in your group is doing well and ready to handle traffic.
 The health check monitors things like if the instance is responding, reachable, and overall in good shape.
 =====================================================================================================================
 What is the threshold ?
-ans;-
+ans;-threshold is like a limit or a point at which Auto Scaling takes action. It's a set level or condition that, when reached, triggers 
+a response from Auto Scaling.
+Example;
+ Imagine you set a CPU usage threshold at 70%. This means that if any of your instances' CPU usage goes beyond 70%, it's a 
+signal for Auto Scaling to take action.
 ========================================================================================================================
 What is the group of LB ?
 ans;-
@@ -148,10 +152,20 @@ ans;-1.Target Tracking Scaling 2.Step Scaling
 Types Auto scaling
 ans;-1.Amazon EC2 Auto Scaling 2.Dynamic Scaling 3.Scheduled Scaling 4.Predictive Scaling
 ===================================================================================================================================
-Difference between vertical scaling and horizontal scaling ?
-ans;-vertical scaling
-1.
-==================================================================================================================================
+Difference between vertical scaling andInvolves adding or removing instances to handle the load.
+ans;-    vertical scaling
+1.vertical scaling is scaling up
+2.Adjusts the resources of an individual server or virtual machine
+3.Typically involves adding more CPU, memory, or storage to a single machine.
+Example:	
+ Increasing the RAM of a database server to handle larger datasets.	
+---horizontal scaling-------------------------------------------------------------------------------------------------------------
+1.horizontal scaling is scaling out
+2.Involves adding or removing instances to handle the load.
+3.Adjusts the number of instances in a distributed system.
+4.Example:
+ Adding more web server instances to a load balancer to handle increased web traffic.
+==============================================================================================
 Difference between AMI & Snapshot ?
 ans;- ami
 1.ami  is a pre-configured virtual machine image, which includes an operating system, application server, and applications. 
