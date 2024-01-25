@@ -3,7 +3,9 @@ ans;-Cloudwatch is a monitoring tool that you can use to monitor your various AW
 Like health check, network, Application, etc.
 ===============================================================================================================================
 Why do we use trails, what is the exact purpose of enabling the trail in cloud production accounts ?
-ans;-
+ans;-CloudTrail logs are valuable for troubleshooting issues that may arise in the production environment.
+Trails in AWS CloudTrail are used to maintain a detailed record of activities within your AWS account.
+Security teams can use CloudTrail logs to detect and investigate potential security threats or unauthorized actions in the production environment
 ================================================================================================================================
 Explain how we can create a trail in aws cloud trail ?
 ans;- open a cloudtrail service and create trail-->trail name-->storage location-->next-->Choose log events--all-->API activity-->all-->next
@@ -22,10 +24,16 @@ How can we disable the logging for certain events, services in cloud trail, If y
 ans;-
 =================================================================================================================================
 Real time use case of cloud trail ?
-ans;-
+ans;-Security and Compliance Monitoring-Detecting Unauthorized Access.
+Troubleshooting and Debugging-Investigating Incidents, Identifying Root Causes.
+Auditing and Governance-User Activity Monitoring, Resource Change Tracking.
+Automated Alerts and Notifications-Setting up Alarms, Automated Responses.
+Forensic Analysis-Post-Incident Analysis.
+Enhancing Security Monitoring.
 =================================================================================================================================
 What is cloud trail event history ?
-ans;-
+ans;-AWS CloudTrail Event History is like a detailed diary for your AWS account. It keeps a record of every action or change that happens in your AWS environment, such as creating a new server or modifying security settings.
+This information includes details like creating or deleting resources, logging in, or changing settings. This "diary" is the CloudTrail Event History.
 ================================================================================================================================
 What is log file integrity validation in cloud trail ?
 ans;-CloudTrail log file integrity validation is a feature that allows users to determine if a CloudTrail log file has been modified,
